@@ -12,3 +12,9 @@
 
 # actor = Actor.new({ first_name: "Chadwick", last_name: "Boseman", known_for: "Black Panther" })
 # actor.save
+
+# movie = Movie.new({ title: "The Hunger Games", year: 2012, plot: "a girl who is good with a bow lights the world on fire" })
+# movie.save
+
+# movie = Movie.new({ title: "The Lord of the Rings", year: 2001, plot: "four dear friends go on a quest to save the world from evil" })
+# movie.save
