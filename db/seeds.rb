@@ -7,7 +7,7 @@
 # actor = Actor.new({ first_name: "Chris", last_name: "Pratt", known_for: "Parks and Recreation" })
 # actor.save
 
-# actor = Actor.new({ first_name: "Johnny", last_name: "Depp", known_for: "Pirates of teh Carribean" })
+# actor = Actor.new({ first_name: "Johnny", last_name: "Depp", known_for: "Pirates of the Carribean" })
 # actor.save
 
 # actor = Actor.new({ first_name: "Chadwick", last_name: "Boseman", known_for: "Black Panther" })
