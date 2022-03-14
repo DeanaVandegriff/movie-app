@@ -1,6 +1,24 @@
-POST http://localhost:3000/one_actor/
+
+### create
+POST http://localhost:3000/actors/
 Content-Type: application/json
 
 {
-  "id":"8"
+  "first_name": "Sandra", 
+  "last_name": "Bullock",
+  "known_for": "Speed"
 }
+
+### update
+
+PATCH http://localhost:3000/actors/10
+Content-Type: application/json
+
+{
+  "known_for": "Miss Congeniality"
+}
+
+### delete
+
+DELETE http://localhost:3000/actors/11
+Content-Type: application/json
