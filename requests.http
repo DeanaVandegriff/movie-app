@@ -1,5 +1,5 @@
 
-### create
+### create-actors
 POST http://localhost:3000/actors/
 Content-Type: application/json
 
@@ -9,7 +9,7 @@ Content-Type: application/json
   "known_for": "Speed"
 }
 
-### update
+### update-actors
 
 PATCH http://localhost:3000/actors/10
 Content-Type: application/json
@@ -18,7 +18,32 @@ Content-Type: application/json
   "known_for": "Miss Congeniality"
 }
 
-### delete
+### delete-actors
 
 DELETE http://localhost:3000/actors/11
+Content-Type: application/json
+
+### create-movies
+
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title": "Pitch Perfect",
+  "year": 2012,
+  "plot": "college is all about singing with your friends"
+}
+
+### update-movies
+
+PATCH http://localhost:3000/movies/5
+Content-Type: application/json
+
+{
+  "plot": "story of the man who wrote Peter Pan"
+}
+
+### delete-movies
+
+DELETE http://localhost:3000/movies/6
 Content-Type: application/json

@@ -14,7 +14,13 @@ Rails.application.routes.draw do
 
   delete "/actors/:id" => "actors#destroy"
 
-  get "/all_movies" => "movies#all_movies"
+  get "/movies" => "movies#index"
 
-  get "/one_movie/:id" => "movies#one_movie"
+  get "/movies/:id" => "movies#show"
+
+  post "/movies" => "movies#create"
+
+  patch "/movies/:id" => "movies#update"
+
+  delete "/movies/:id" => "movies#destroy"
 end
