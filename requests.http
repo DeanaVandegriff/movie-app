@@ -29,9 +29,11 @@ POST http://localhost:3000/movies
 Content-Type: application/json
 
 {
-  "title": "Pitch Perfect",
-  "year": 2012,
-  "plot": "college is all about singing with your friends"
+  "title": "Twilight",
+  "year": 2008,
+  "plot": "vampires and werewolves are yummy",
+  "director": "David Slade",
+  "english": "true"
 }
 
 ### update-movies
@@ -40,7 +42,7 @@ PATCH http://localhost:3000/movies/5
 Content-Type: application/json
 
 {
-  "plot": "story of the man who wrote Peter Pan"
+  "english": "true"
 }
 
 ### delete-movies
