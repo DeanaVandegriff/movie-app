@@ -38,7 +38,7 @@ Content-Type: application/json
 
 ### update-movies
 
-PATCH http://localhost:3000/movies/5
+PATCH http://localhost:3000/movies/7
 Content-Type: application/json
 
 {
