@@ -4,9 +4,10 @@ POST http://localhost:3000/actors/
 Content-Type: application/json
 
 {
-  "first_name": "Sandra", 
-  "last_name": "Bullock",
-  "known_for": "Speed"
+  "first_name": "S", 
+  "last_name": "B",
+  "known_for": "good stuff",
+  "age": "8"
 }
 
 ### update-actors
@@ -47,5 +48,5 @@ Content-Type: application/json
 
 ### delete-movies
 
-DELETE http://localhost:3000/movies/6
+DELETE http://localhost:3000/movies/8
 Content-Type: application/json
