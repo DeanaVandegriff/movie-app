@@ -1,9 +1,11 @@
 class Actor < ApplicationRecord
-  validates :first_name, length: { minimum: 2 }
+  belongs_to :movie
 
-  validates :last_name, length: { minimum: 2 }
+  # validates :first_name, length: { minimum: 2 }
 
-  validates :known_for, presence: true
+  # validates :last_name, length: { minimum: 2 }
 
-  validates :age, numericality: { greater_than: 12 }
+  # validates :known_for, presence: true
+
+  # validates :age, numericality: { greater_than: 12 }
 end

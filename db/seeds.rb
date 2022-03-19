@@ -18,3 +18,12 @@
 
 # movie = Movie.new({ title: "The Lord of the Rings", year: 2001, plot: "four dear friends go on a quest to save the world from evil" })
 # movie.save
+
+# movie = Movie.new({ title: "Black Panther", year: 2001, plot: "four dear friends go on a quest to save the world from evil", english: "true"})
+# movie.save
+
+# movie = Movie.new({ title: "Miss Congeniality", year: 2000, plot: "cop turns beauty queen to catch the bad guy", english: "true"})
+# movie.save
+
+# movie = Movie.new({ title: "The Imitation Game", year: 2014, plot: "math genius tries to crack the code", english: "true" })
+# movie.save
