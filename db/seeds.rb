@@ -27,3 +27,23 @@
 
 # movie = Movie.new({ title: "The Imitation Game", year: 2014, plot: "math genius tries to crack the code", english: "true" })
 # movie.save
+
+# genre = Genre.new({ name: "Action" })
+# genre.save
+
+# genre = Genre.new({ name: "Comedy" })
+# genre.save
+
+# genre = Genre.new({ name: "Drama" })
+# genre.save
+
+# genre = Genre.new({ name: "Thriller" })
+# genre.save
+
+# MovieGenre.create(movie_id: 1, genre_id: 1)
+
+# MovieGenre.create(movie_id: 5, genre_id: 3)
+
+# MovieGenre.create(movie_id: 10, genre_id: 2)
+
+# MovieGenre.create(movie_id: 3, genre_id: 1)
