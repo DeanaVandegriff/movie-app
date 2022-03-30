@@ -75,3 +75,12 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "password"
 }
+
+### MovieGenre create
+POST http://localhost:3000/movie_genres.json
+Content-Type: application/json
+
+{
+  "genre_id": 4,
+  "movie_id": 7
+}
