@@ -3,11 +3,10 @@
     id: movie.id,
     title: movie.title,
     year: movie.year,
-    english: movie.english,
     plot: movie.plot,
-    actors: movie.actors,
-    genres: movie.genre
-  
+    director: movie.director,
+    english: movie.english,
+    genres: movie.genres
   }
 end
 

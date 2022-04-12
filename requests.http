@@ -1,6 +1,10 @@
+@jwt = 
+
+### actors-index
+GET http://localhost:3000/actors.json 
 
 ### create-actors
-POST http://localhost:3000/actors/
+POST http://localhost:3000/actors.json
 Content-Type: application/json
 
 {
@@ -76,6 +80,16 @@ Content-Type: application/json
   "password": "password"
 }
 
+### Movies create with auth
+POST http://localhost:3000/movies.json
+Authorization: Bearer {{jwt}}
+Content-Type: application/json
+
+{
+  "title":
+  "year": 
+  "plot": 
+}
 ### MovieGenre create
 POST http://localhost:3000/movie_genres.json
 Content-Type: application/json

@@ -1,9 +1,11 @@
 {
   id: @movie.id,
+  title: @movie.title,
   year: @movie.year,
   plot: @movie.plot,
   director: @movie.director,
   english: @movie.english,
-  actors: @movie.actors,
-  genre: @movie.genre
+  genres: @movie.genres,
+  created_at: @movie.created_at,
+  updated_at: @movie.updated_at
 }
